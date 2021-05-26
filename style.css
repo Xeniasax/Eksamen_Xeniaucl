@@ -4,7 +4,7 @@
       box-sizing: border-box;
 }
 
-body{
+  body{
       background-color: #FAFAFA;
 }
 
@@ -15,6 +15,15 @@ body{
       color: #3B4B61;
       margin-right: 850px;
   }
+
+
+  .header2{
+      font-family: Europa-bold;
+      font-size: 35px;
+      text-align: center;
+      color: #3B4B61;
+  }
+
 
   .navbar{
       font-family: Europa-regular;
@@ -90,7 +99,7 @@ body{
    .kasse img{
      width: 175px;
      height: 175px;
-     margin: 120px 120px 120px 120px;
+     margin: 110px 110px 110px 110px;
      border: 3px solid #3B4B61;
    }
 
@@ -100,8 +109,23 @@ body{
    }
 
 
+   .minekompetencer{
+     font-size: 25px;
+     font-family: Europa-bold;
+     color: #3B4B61;
+     margin-left: -200px;
+   }
+
+   .portfoliobaggrundskasse{
+     height: 1000px;
+     width:auto;
+     background-color: #E8EAE1;
+     margin-top: 80px;
+   }
+
+
    .footer div{
-     margin-left: 60px;
+     margin-left: 50px;
      margin-right: 100px;
      display:inline-block;
    }
