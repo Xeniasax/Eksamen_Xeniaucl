@@ -1,47 +1,49 @@
 *{
-  margin: 1;
-  padding: 2;
-  box-sizing: border-box;
+      margin: 1;
+      padding: 2;
+      box-sizing: border-box;
 }
 
 body{
-  background-color: #FAFAFA;
-
+      background-color: #FAFAFA;
 }
 
   .header1{
-    font-family: Europa-bold;
-    font-size: 35px;
-    text-align: center;
-    color: #3B4B61;
-    margin-right: 850px;
+      font-family: Europa-bold;
+      font-size: 35px;
+      text-align: center;
+      color: #3B4B61;
+      margin-right: 850px;
   }
 
   .navbar{
+      font-family: Europa-regular;
+      font-size: 20px;
+      width: 100%;
+      color: #3B4B61;
+      margin-left: -100;
+      float: right;
+  }
 
-    font-family: Europa-regular;
-    font-size: 20px;
-    width: 100%;
-    color: #3B4B61;
-    margin-left: -100;
-    float: right;
+  .navbar a:hover {
+      color: #FAFAFA;
   }
 
   .navbar a
   {
-    float: right;
-    padding: 52px 52px 52px 52px;
-    padding-top: -100px;
-    margin-top: -110px;
-    color: #3B4B61;
-    text-decoration: none;
+      float: right;
+      padding: 52px 52px 52px 52px;
+      padding-top: -100px;
+      margin-top: -110px;
+      color: #3B4B61;
+      text-decoration: none;
   }
 
 
   .topmenubox{
-  color: #c3c8af;
-  border: solid;
-  background-color: #c3c8af;
+      color: #c3c8af;
+      border: solid;
+      background-color: #c3c8af;
       height: 100px;
       width: 100%;
       margin: auto;
@@ -49,36 +51,31 @@ body{
       margin-top: -100px;
   }
 
-  .tekst{
-  float: left;
-      width: 120%;
-      padding: 5px;
-      margin-top: 300px;
-      margin-left: 40px;
-  }
-
-  #langtbillede{
-  float: left;
-      width: 120px;
-      padding: 2px;
-      margin-top: -500px;
-      margin-left: 600px;
+  #portraet{
+      float: left;
+      width: 50%;
+      height: 10%;
+      padding: 10px;
+      margin-top: -18px;
+      margin-left: 700px;
   }
 
   .footer{
-    color: #c3c8af;
-    border: solid;
-    background-color: #c3c8af;
-        height: 60px;
-        width: 100%;
-        padding: 8px;
-
+      color: #3B4B61;
+      font-family: Europa-regular;
+      font-size: 20px;
+      background-color: #c3c8af;
+      height: 60px;
+      width: 100%;
+      padding: 8px;
+      display: inline-block;
    }
 
+
    .jegerxenia{
-     width:25%;
-     height:50%;
-     margin-top: -500px;
+     margin: 55px;
+     width: 55%;
+     height: 55%;
    }
 
 
@@ -86,16 +83,25 @@ body{
      height: 325px;
      width:auto;
      background-color: #E8EAE1;
-     margin-top: 500px;
+     margin-top: 510px;
    }
 
+
    .kasse img{
-     width: 150px;
-     height: 150px;
-     margin: 127px 127px 127px 127px;
-     border: 5px solid #3B4B61;
+     width: 175px;
+     height: 175px;
+     margin: 120px 120px 120px 120px;
+     border: 3px solid #3B4B61;
    }
+
 
    .kasse {
      position: center;
+   }
+
+
+   .footer div{
+     margin-left: 60px;
+     margin-right: 100px;
+     display:inline-block;
    }
