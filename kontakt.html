@@ -3,7 +3,8 @@
   <head>
     <meta charset="utf-8">
     <title>Præsentationsportfolio</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="kontakt.css">
+    <link href="/your-path-to-fontawesome/css/fontawesome.css" rel="stylesheet">
 
   </head>
 
@@ -23,13 +24,45 @@
       class="topmenubox">
   </div>
 
-  <h4 class="header4">KONTAKT</h4>
+  <h3 class="header3">KONTAKT</h3>
 
-  <!--dette er kasse til om mig-->
-  <div class="portfoliobaggrundskasse">
 
-          <div class="tekstkasseommig" style="width:20%;" style="height:50px">
+          <div class="container">
+            <div style="text-align:center">
+              <h2>Kontaktformular</h2>
+              <p>I tvivl om noget? Jeg sidder klar til at besvare dine spørgsmål.:</p>
+            </div>
+            <div class="header5">
+              <p>Kontaktoplysninger</p>
+            </div>
+            <div class="tekstommig">
+              <p>Navn: Xenia Saxtoft</p>
+              <p>Mail: xenia20091@hotmail.com</p>
+              <p>Adresse: Dronningensgade 95s
+               Odense C, 5000</p>
+
+            </div>
+            <div class="row">
+              <div class="column">
+
+              </div>
+              <div class="column">
+                <form action="/action_page.php">
+                  <label for="fname">Fornavn</label>
+                  <input type="text" id="fname" name="firstname" placeholder="Dit navn..">
+                  <label for="lname">Efternavn</label>
+                  <input type="text" id="lname" name="lastname" placeholder="Dit efternavn..">
+                  <label for="subject">Email</label>
+                  <input type="text" id="lname" name="lastname" placeholder="Din email..">
+                  <label for="subject">Emne</label>
+                  <textarea id="subject" name="subject" placeholder="Skriv noget.." style="height:170px"></textarea>
+                  <input type="submit" value="Send">
+                </form>
+              </div>
+            </div>
           </div>
+
+
   </div>
 
 
@@ -42,6 +75,12 @@
     </div>
     <div>
       <p>Telefonnummer: +452466 6248</p>
+    </div>
+
+    <div class="social-menu">
+      <ul>
+        <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+      <ul>
     </div>
  </footer>
 
