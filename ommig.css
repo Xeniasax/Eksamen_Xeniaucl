@@ -1,3 +1,5 @@
+
+
 *{
       margin: 1;
       padding: 2;
@@ -38,6 +40,20 @@
       color: #3B4B61;
   }
 
+  .header5{
+      font-family: Europa-bold;
+      font-size: 20px;
+      text-align: center;
+      color: #3B4B61;
+  }
+
+  .tekstommig{
+      font-family: Europa-light;
+      font-size: 15px;
+      text-align: center;
+      color: #3B4B61;
+      line-height: 1.5;
+  }
 
   .navbar{
       font-family: Europa-regular;
@@ -74,14 +90,6 @@
       margin-top: -100px;
   }
 
-  #portraet{
-      float: left;
-      width: 50%;
-      height: 10%;
-      padding: 10px;
-      margin-top: -18px;
-      margin-left: 700px;
-  }
 
   .footer{
       color: #3B4B61;
@@ -92,6 +100,7 @@
       width: 100%;
       padding: 3px;
       display: inline-block;
+      margin-top: 150px;
    }
 
 
@@ -99,15 +108,6 @@
      margin: 55px;
      width: 55%;
      height: 55%;
-   }
-
-
-   .baggrundskasse{
-     height: 325px;
-     width:100%;
-     background-color: #E8EAE1;
-     margin-top: -75px;
-
    }
 
 
@@ -126,108 +126,47 @@
 
 
    .minekompetencer{
-     font-size: 50px;
+     font-size: 25px;
      font-family: Europa-bold;
      color: #3B4B61;
      text-align: center;
-     margin-top: 600px;
+     margin-top: 530px;
    }
 
 
    .portfoliobaggrundskasse{
-     height: 1200px;
+     height: 425px;
      width: auto;
      background-color: #E8EAE1;
-     margin-top: 150px;
    }
 
 
    .tekstkasseommig{
     background-color: #FAFAFA;
-    width: auto 100px;
-    height: 500px;
-    margin-left: 800px;
-    margin-top: 100px;
+    width: 350px;
+    height: 300px;
+    margin-left: 700px;
+    margin-right: 500px;
    }
 
 
    .kassebeskrivelseportfolio{
-     width: 500px;
-     height: 100px;
-     margin-left: 375px;
-     background-color: #FAFAFA;
-     position: relative;
-     margin-top: 50px;
      text-align: center;
-     font-family: Europa-regular;
-     background: red;
-
-    }
-
-    .tekstportfoliobeskrivelse{
-     font-size: 20px;
+     background: #E8EAE1;
      font-family: Europa-light;
-     margin-left: 500px;
-    }
-
-
-    /* MINE kompetencer*/
-    .title {
-      height: 50%;
-    }
-
-
-    .projekter {
-      margin-top: 1px;
-      position: relative;
-      width: 350px;
-      height: 350px;
-      display: inline-block;
-    }
-
-    .image {
-      display: block;
-      width: 150px;
-      height: 150px;
-    }
-
-    .overlay {
-      position: absolute;
-      transition: all .3s ease;
-      opacity: 0;
-      background-color: #eee;
-    }
-
-    .projekter:hover .overlay{
-      opacity: 1;
-    }
-
-    .text {
-      color: white;
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-      font-size: 20px;
-      }
-
-    .projekter:hover .overlayFade{
-      width: 100%;
-      }
-
-
-    .overlayFade {
-    width: 50%;
-    height: 50%;
-    top: 0;
-    left: 0;
-    background-color: #E8EAE1;
+     text-decoration-color: #3B4B61;
+     width: 700px;
+     margin-left: auto;
+     margin-right: auto;
+     margin-bottom: 50px;
+     margin-top: 50px;
     }
 
 
 
-   .footer div{
-     margin-left: 50px;
-     margin-right: 100px;
-     display:inline-block;
-   }
+
+    .footer div{
+      margin-left: 50px;
+      margin-right: 100px;
+      display:inline-block;
+    }
