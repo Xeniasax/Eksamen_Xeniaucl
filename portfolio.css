@@ -4,9 +4,10 @@
       box-sizing: border-box;
 }
 
-  body{
-      background-color: #FAFAFA;
-}
+body{
+    background-color: #FAFAFA;
+    margin: 0 -10px;
+  }
 
   .header1{
       font-family: Europa-bold;
@@ -46,6 +47,7 @@
       color: #3B4B61;
       margin-left: -100;
       float: right;
+      margin-top: 7.5px;
   }
 
   .navbar a:hover {
@@ -212,17 +214,78 @@
         font-family: Europa-regular;
         font-size: 15px;
         background-color: #c3c8af;
-        height: 50px;
+        height: 60px;
         width: 100%;
         padding: 3px;
-        display: inline-block;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        border: 1px solid red;
         margin-top: 150px;
+        margin: 0px;
 
+
+        /* align-items justify-content */
      }
 
 
     .footer div{
-      margin-left: 50px;
-      margin-right: 100px;
-      display:inline-block;
+        display:inline-flex;
+        padding: 0 40px;
+
     }
+
+    /* Style all font awesome icons */
+    .fsa {
+        text-align: center;
+        font-size: 25px;
+        width: 40px;
+        height: 40px;
+        text-decoration: none;
+        border-radius: 75%;
+        }
+
+        .fa {
+            display:flex;
+            justify-content: center;
+            align-items: center;
+            margin:0 auto;
+            text-align: center;
+            font-size: 25px;
+            width: 40px;
+            height: 40px;
+            text-decoration: none;
+            border-radius: 75%;
+            }
+
+
+      .socialbuttons  a{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+
+      /* Add a hover effect if you want */
+      .fa:hover {
+        opacity: 0.5;
+      }
+
+
+      .fa-facebook {
+        background: #4065B4;
+        color: white;
+
+      }
+
+
+      .fa-linkedin {
+        background: #1073B5;
+        color: white;
+        margin: 0 10px;
+      }
+
+      .fa-instagram {
+        background: #D185B5;
+        color: white;
+      }

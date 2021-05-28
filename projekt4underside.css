@@ -2,11 +2,11 @@
       margin: 1;
       padding: 2;
       box-sizing: border-box;
-}
+  }
 
-body{
-    background-color: #FAFAFA;
-    margin: 0 -10px;
+  body{
+      background-color: #FAFAFA;
+      margin: 0 -10px;
   }
 
   .header1{
@@ -18,21 +18,18 @@ body{
   }
 
 
-  .header2{
-      font-family: Europa-bold;
-      font-size: 35px;
-      text-align: center;
-      color: #3B4B61;
+  .videoopgave{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:0;
+    margin-bottom: 1rem;
+
+
   }
+
 
   .header3{
-      font-family: Europa-bold;
-      font-size: 35px;
-      text-align: center;
-      color: #3B4B61;
-  }
-
-  .header4{
       font-family: Europa-bold;
       font-size: 35px;
       text-align: center;
@@ -44,27 +41,13 @@ body{
       font-size: 20px;
       text-align: center;
       color: #3B4B61;
-      padding-top: 15px;
-  }
-
-  .portraet2{
-    margin-right: 400px;
-    margin-left: 100px;
-    margin-top: 32px;
-
   }
 
   .tekstommig{
       font-family: Europa-light;
-      font-size: 15px;
+      font-size: 20px;
       text-align: center;
       color: #3B4B61;
-      line-height: 1.5;
-      padding-top: 25px;
-  }
-
-  .ommigbillede{
-
   }
 
   .navbar{
@@ -81,8 +64,7 @@ body{
       color: #FAFAFA;
   }
 
-  .navbar a
-  {
+  .navbar a {
       float: right;
       padding: 52px 52px 52px 52px;
       padding-top: -100px;
@@ -104,79 +86,39 @@ body{
   }
 
 
-   .jegerxenia{
-     margin: 55px;
-     width: 55%;
-     height: 55%;
-   }
+  .kakao{
+      width: 25vw;
+      height: 50%;
+
+  }
 
 
-   .kasse img{
-     width: 220px;
-     height: 220px;
-     margin: 91px 91px 91px;
-     border: 3px solid #3B4B61;
-     margin-bottom: 100px;
-   }
+  .solbriller{
+      width: 25vw;
+      height: 75%;
+  }
 
 
-   .kasse {
-     position: center;
-   }
+  .solbrillermedrens{
+      width: 25vw;
+      height: 50%;
+  }
 
 
-   .minekompetencer{
-     font-size: 25px;
-     font-family: Europa-bold;
-     color: #3B4B61;
-     text-align: center;
-     margin-top: 530px;
-   }
-
-
-   .portfoliobaggrundskasse{
-     height: 425px;
-     width: auto;
-     background-color: #E8EAE1;
-   }
-
-
-   .tekstkasseommig{
-    background-color: #FAFAFA;
-    width: 350px;
-    height: 275px;
-    margin-left: 700px;
-    margin-right: 700px;
-    margin-top: -360px;
-   }
-
-
-   .kassebeskrivelseportfolio{
-     text-align: center;
-     background: #E8EAE1;
-     font-family: Europa-light;
-     text-decoration-color: #3B4B61;
-     width: 700px;
-     margin-left: auto;
-     margin-right: auto;
-     margin-bottom: 50px;
-     margin-top: 50px;
-    }
 
     .footer{
         color: #3B4B61;
         font-family: Europa-regular;
         font-size: 15px;
         background-color: #c3c8af;
-        height: 60px;
+        height: 100%;
         width: 100%;
-        padding: 3px;
+        padding: 1%;
         display: flex;
         justify-content: space-around;
         align-items: center;
-        border: 1px solid red;
         margin-top: 150px;
-        margin: 0px;
+        margin: 0;
 
 
         /* align-items justify-content */

@@ -2,11 +2,12 @@
       margin: 1;
       padding: 2;
       box-sizing: border-box;
-}
+  }
 
   body{
       background-color: #FAFAFA;
-}
+      margin: 0 -10px;
+  }
 
   .header1{
       font-family: Europa-bold;
@@ -17,12 +18,14 @@
   }
 
 
-  .header2{
-      font-family: Europa-bold;
-      font-size: 35px;
-      text-align: center;
-      color: #3B4B61;
+  .collage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:0;
+    margin-bottom: 4rem;
   }
+
 
   .header3{
       font-family: Europa-bold;
@@ -31,38 +34,18 @@
       color: #3B4B61;
   }
 
-  .header4{
-      font-family: Europa-bold;
-      font-size: 35px;
-      text-align: center;
-      color: #3B4B61;
-  }
-
   .header5{
-      font-family: Europa-regular;
-      font-size: 16px;
+      font-family: Europa-bold;
+      font-size: 20px;
       text-align: center;
       color: #3B4B61;
-  }
-
-  .portraet2{
-    margin-right: 400px;
-    margin-left: 100px;
-    margin-top: 32px;
-
   }
 
   .tekstommig{
       font-family: Europa-light;
-      font-size: 15px;
+      font-size: 20px;
       text-align: center;
       color: #3B4B61;
-      line-height: 1.5;
-      padding-top: 25px;
-  }
-
-  .ommigbillede{
-
   }
 
   .navbar{
@@ -72,14 +55,14 @@
       color: #3B4B61;
       margin-left: -100;
       float: right;
+      margin-top: 7.5px;
   }
 
   .navbar a:hover {
       color: #FAFAFA;
   }
 
-  .navbar a
-  {
+  .navbar a {
       float: right;
       padding: 52px 52px 52px 52px;
       padding-top: -100px;
@@ -101,81 +84,102 @@
   }
 
 
-   .jegerxenia{
-     margin: 55px;
-     width: 55%;
-     height: 55%;
-   }
+  .kakao{
+      width: 25vw;
+      height: 50%;
+
+  }
 
 
-   .kasse img{
-     width: 220px;
-     height: 220px;
-     margin: 91px 91px 91px;
-     border: 3px solid #3B4B61;
-     margin-bottom: 100px;
-   }
+  .solbriller{
+      width: 25vw;
+      height: 75%;
+  }
 
 
-   .kasse {
-     position: center;
-   }
+  .solbrillermedrens{
+      width: 25vw;
+      height: 50%;
+  }
 
 
-   .minekompetencer{
-     font-size: 25px;
-     font-family: Europa-bold;
-     color: #3B4B61;
-     text-align: center;
-     margin-top: 530px;
-   }
-
-
-   .portfoliobaggrundskasse{
-     height: 425px;
-     width: auto;
-     background-color: #E8EAE1;
-   }
-
-
-   .tekstkasseommig{
-    background-color: #FAFAFA;
-    width: 350px;
-    height: 275px;
-    margin-left: 700px;
-    margin-right: 700px;
-    margin-top: -360px;
-   }
-
-
-   .kassebeskrivelseportfolio{
-     text-align: center;
-     background: #E8EAE1;
-     font-family: Europa-light;
-     text-decoration-color: #3B4B61;
-     width: 700px;
-     margin-left: auto;
-     margin-right: auto;
-     margin-bottom: 50px;
-     margin-top: 50px;
-    }
 
     .footer{
         color: #3B4B61;
         font-family: Europa-regular;
         font-size: 15px;
         background-color: #c3c8af;
-        height: 50px;
+        height: 100%;
         width: 100%;
-        padding: 3px;
-        display: inline-block;
+        padding: 1%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
         margin-top: 150px;
+        margin: 0;
 
+
+        /* align-items justify-content */
      }
 
 
     .footer div{
-      margin-left: 50px;
-      margin-right: 100px;
-      display:inline-block;
+        display:inline-flex;
+        padding: 0 40px;
+
     }
+
+    /* Style all font awesome icons */
+    .fsa {
+        text-align: center;
+        font-size: 25px;
+        width: 40px;
+        height: 40px;
+        text-decoration: none;
+        border-radius: 75%;
+        }
+
+        .fa {
+            display:flex;
+            justify-content: center;
+            align-items: center;
+            margin:0 auto;
+            text-align: center;
+            font-size: 25px;
+            width: 40px;
+            height: 40px;
+            text-decoration: none;
+            border-radius: 75%;
+            }
+
+
+      .socialbuttons  a{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+
+      /* Add a hover effect if you want */
+      .fa:hover {
+        opacity: 0.5;
+      }
+
+
+      .fa-facebook {
+        background: #4065B4;
+        color: white;
+
+      }
+
+
+      .fa-linkedin {
+        background: #1073B5;
+        color: white;
+        margin: 0 10px;
+      }
+
+      .fa-instagram {
+        background: #D185B5;
+        color: white;
+      }
