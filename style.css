@@ -6,7 +6,8 @@
 
   body{
       background-color: #FAFAFA;
-}
+      margin: 0 -10px;
+    }
 
   .header1{
       font-family: Europa-bold;
@@ -24,12 +25,14 @@
       color: #3B4B61;
   }
 
+
   .header3{
       font-family: Europa-bold;
       font-size: 35px;
       text-align: center;
       color: #3B4B61;
   }
+
 
   .header4{
       font-family: Europa-bold;
@@ -39,6 +42,18 @@
   }
 
 
+  .header5 {
+      font-family: Europa-Bold;
+      font-size: 50px;
+      color: #3B4B61;
+      line-height: 1.5;
+      position: center;
+      margin-left: 125px;
+      margin-top: -450px;
+      }
+
+
+
   .navbar{
       font-family: Europa-regular;
       font-size: 20px;
@@ -46,6 +61,7 @@
       color: #3B4B61;
       margin-left: -100;
       float: right;
+      margin-top: 7.5px;
   }
 
   .navbar a:hover {
@@ -74,48 +90,13 @@
       margin-top: -100px;
   }
 
-  #portraet{
-      float: left;
-      width: 50%;
-      height: 10%;
-      padding: 10px;
-      margin-top: -400px;
-      margin-left: 700px;
+  .portraet{
+      width: 60%;
+      height: 60%;
+      margin-top: 25px;
+      margin-left: 350px;
   }
 
-
-
-
-   .ramme.forside{
-     height: auto;
-     width: auto;
-     margin-right: 200px;
-     margin-top: -500px;
-   }
-
-
-
-   .baggrundskasse{
-     height: 325px;
-     width:100%;
-     background-color: #E8EAE1;
-     margin-top: -75px;
-
-   }
-
-
-   .kasse img{
-     width: 220px;
-     height: 220px;
-     margin: 91px 91px 91px;
-     border: 3px solid #3B4B61;
-     margin-bottom: 100px;
-   }
-
-
-   .kasse {
-     position: center;
-   }
 
 
    .minekompetencer{
@@ -123,7 +104,8 @@
      font-family: Europa-bold;
      color: #3B4B61;
      text-align: center;
-     margin-top: 600px;
+     margin-top: 350px;
+
    }
 
 
@@ -171,11 +153,11 @@
 
 
     .projekter {
-      margin-top: 1px;
       position: relative;
       width: 350px;
-      height: 350px;
+      height: 275px;
       display: inline-block;
+      font-family: Europa-Bold;
     }
 
     .image {
@@ -210,12 +192,17 @@
 
 
     .overlayFade {
-    width: 50%;
-    height: 50%;
-    top: 0;
-    left: 0;
-    background-color: #E8EAE1;
-    }
+          width: 50%;
+          height: 65%;
+          top: 0;
+          left: 0;
+          background-color: #E8EAE1;
+          align-items: center;
+          margin:auto;
+          
+
+          }
+
 
     .footer{
         color: #3B4B61;
@@ -225,14 +212,78 @@
         height: 50px;
         width: 100%;
         padding: 3px;
-        display: inline-block;
-        margin-top: 150px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        border: 1px solid red;
+        padding-top: 55px;
 
+        /* align-items justify-content */
      }
 
 
     .footer div{
-      margin-left: 50px;
-      margin-right: 100px;
-      display:inline-block;
+        display:inline-flex;
+        margin: 100px 75px;
+        margin-bottom: 150px;
     }
+
+
+    /* Style all font awesome icons */
+    .fsa {
+        display: inline-flex;
+        text-align: center;
+        font-size: 25px;
+        width: 40px;
+        height: 40px;
+        text-decoration: none;
+        border-radius: 75%;
+        }
+
+        .fa {
+            display:flex;
+            justify-content: center;
+            align-items: center;
+            margin:0 auto;
+            text-align: center;
+            font-size: 25px;
+            width: 40px;
+            height: 40px;
+            text-decoration: none;
+            border-radius: 75%;
+            }
+
+
+      .socialbuttons  a{
+        display:  inline-flex;
+        justify-content: space-between;
+        align-items: center;
+        border: 2px solid green;
+
+      }
+
+
+      /* Add a hover effect if you want */
+      .fa:hover {
+        opacity: 0.5;
+      }
+
+
+      .fa-facebook {
+        background: #3B5998;
+        color: white;
+        margin: 0 5px;
+      }
+
+      /* Twitter */
+      .fa-twitter {
+        background: #55ACEE;
+        color: white;
+        margin: 0 5px;
+
+      }
+
+      .fa-instagram {
+        background: #55ACEE;
+        color: white;
+      }
