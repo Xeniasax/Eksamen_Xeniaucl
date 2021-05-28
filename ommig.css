@@ -50,7 +50,7 @@ body{
   .portraet2{
     margin-right: 400px;
     margin-left: 100px;
-    margin-top: 32px;
+    margin-top: 11px;
 
   }
 
@@ -60,7 +60,9 @@ body{
       text-align: center;
       color: #3B4B61;
       line-height: 1.5;
-      padding-top: 25px;
+      padding-top: -25px;
+      padding: 5px;
+      
   }
 
   .ommigbillede{
@@ -138,6 +140,7 @@ body{
      height: 425px;
      width: auto;
      background-color: #E8EAE1;
+     margin-bottom: 75px;
    }
 
 
@@ -174,7 +177,6 @@ body{
         display: flex;
         justify-content: space-around;
         align-items: center;
-        border: 1px solid red;
         margin-top: 150px;
         margin: 0px;
 
@@ -183,9 +185,9 @@ body{
      }
 
 
-    .footer div{
-        display:inline-flex;
-        padding: 0 40px;
+     .footer div{
+         display:inline-flex;
+         padding: 0 25px;
 
     }
 

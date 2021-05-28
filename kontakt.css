@@ -195,18 +195,16 @@ body{
         display: flex;
         justify-content: space-around;
         align-items: center;
-        border: 1px solid red;
-        margin-top: 150px;
-        margin: 0px;
+        margin-top: 50px;
 
 
         /* align-items justify-content */
      }
 
 
-    .footer div{
-        display:inline-flex;
-        padding: 0 40px;
+     .footer div{
+         display:inline-flex;
+         padding: 0 25px;
 
     }
 

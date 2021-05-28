@@ -138,7 +138,7 @@ body{
     width: auto 100px;
     height: 500px;
     margin-left: 800px;
-    margin-top: 100px;
+    margin-top: 50px;
    }
 
 
@@ -151,7 +151,8 @@ body{
      margin-left: auto;
      margin-right: auto;
      margin-bottom: 50px;
-     margin-top: 50px;
+     line-height: 1.2;
+
     }
 
 
@@ -220,22 +221,15 @@ body{
         display: flex;
         justify-content: space-around;
         align-items: center;
-        border: 1px solid red;
-        margin-top: 150px;
-        margin: 0px;
-
-
-        /* align-items justify-content */
+        margin-top: 50px;
      }
 
 
-    .footer div{
-        display:inline-flex;
-        padding: 0 40px;
-
+     .footer div{
+         display:inline-flex;
+         padding: 0 25px;
     }
 
-    /* Style all font awesome icons */
     .fsa {
         text-align: center;
         font-size: 25px;
@@ -266,7 +260,6 @@ body{
       }
 
 
-      /* Add a hover effect if you want */
       .fa:hover {
         opacity: 0.5;
       }
