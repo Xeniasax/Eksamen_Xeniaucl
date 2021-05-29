@@ -24,6 +24,8 @@
     align-items: center;
     margin:0;
     margin-bottom: 1rem;
+    width: 50%;
+    margin-left: 215px;
 
 
   }
@@ -48,6 +50,7 @@
       font-size: 20px;
       text-align: center;
       color: #3B4B61;
+      line-height: 1.5;
   }
 
   .navbar{
@@ -85,24 +88,6 @@
       margin-top: -100px;
   }
 
-
-  .kakao{
-      width: 25vw;
-      height: 50%;
-
-  }
-
-
-  .solbriller{
-      width: 25vw;
-      height: 75%;
-  }
-
-
-  .solbrillermedrens{
-      width: 25vw;
-      height: 50%;
-  }
 
 
 

@@ -18,14 +18,14 @@
   }
 
 
-  .videoopgave{
+  .videohest{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin:0;
-    margin-bottom: 1rem;
-
-
+    margin: 0;
+    margin-bottom: 1.5rem;
+    width: 500px;
+    margin-left: 260px;
   }
 
 
@@ -48,6 +48,7 @@
       font-size: 20px;
       text-align: center;
       color: #3B4B61;
+      line-height: 1.5;
   }
 
   .navbar{
