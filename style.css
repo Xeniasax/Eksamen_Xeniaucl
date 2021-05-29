@@ -40,12 +40,21 @@
 
   .header5 {
       font-family: Europa-Bold;
-      font-size: 50px;
+      font-size: 90px;
       color: #3B4B61;
       line-height: 1.5;
       position: center;
       margin-left: 125px;
-      margin-top: -450px;
+      margin-top: -600px;
+  }
+
+  .header6 {
+    font-family: Europa-regular;
+    font-size: 45px;
+    color: #3B4B61;
+    margin-left: 125px;
+    margin-top: -125px;
+
   }
 
   .navbar{
@@ -96,7 +105,7 @@
      font-family: Europa-bold;
      color: #3B4B61;
      text-align: center;
-     margin-top: 350px;
+     margin-top: 400px;
 
    }
 
