@@ -1,3 +1,4 @@
+
 *{
       margin: 1;
       padding: 2;
@@ -10,7 +11,7 @@ body{
   }
 
   .header1{
-      font-family: Europa-bold;
+      font-family: arial;
       font-size: 35px;
       text-align: center;
       color: #3B4B61;
@@ -19,28 +20,28 @@ body{
 
 
   .header2{
-      font-family: Europa-bold;
+      font-family: arial;
       font-size: 35px;
       text-align: center;
       color: #3B4B61;
   }
 
   .header3{
-      font-family: Europa-bold;
+      font-family: arial;
       font-size: 35px;
       text-align: center;
       color: #3B4B61;
   }
 
   .header4{
-      font-family: Europa-bold;
+      font-family: arial;
       font-size: 35px;
       text-align: center;
       color: #3B4B61;
   }
 
   .header5{
-      font-family: Europa-bold;
+      font-family: arial;
       font-size: 20px;
       text-align: center;
       color: #3B4B61;
@@ -55,7 +56,7 @@ body{
   }
 
   .tekstommig{
-      font-family: Europa-light;
+      font-family: arial;
       font-size: 15px;
       text-align: center;
       color: #3B4B61;
@@ -70,7 +71,7 @@ body{
   }
 
   .navbar{
-      font-family: Europa-regular;
+      font-family: arial;
       font-size: 20px;
       width: 100%;
       color: #3B4B61;
@@ -129,7 +130,7 @@ body{
 
    .minekompetencer{
      font-size: 25px;
-     font-family: Europa-bold;
+     font-family: arial;
      color: #3B4B61;
      text-align: center;
      margin-top: 530px;
@@ -157,7 +158,7 @@ body{
    .kassebeskrivelseportfolio{
      text-align: center;
      background: #E8EAE1;
-     font-family: Europa-light;
+     font-family: arial;
      text-decoration-color: #3B4B61;
      width: 700px;
      margin-left: auto;
@@ -168,7 +169,7 @@ body{
 
     .footer{
         color: #3B4B61;
-        font-family: Europa-regular;
+        font-family: arial;
         font-size: 15px;
         background-color: #c3c8af;
         height: 60px;

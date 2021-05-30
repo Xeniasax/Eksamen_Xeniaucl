@@ -1,3 +1,4 @@
+
 *{
       margin: 1;
       padding: 2;
@@ -10,7 +11,7 @@
   }
 
   .header1{
-      font-family: Europa-bold;
+      font-family: arial;
       font-size: 35px;
       text-align: center;
       color: #3B4B61;
@@ -32,21 +33,21 @@
 
 
   .header3{
-      font-family: Europa-bold;
+      font-family: arial;
       font-size: 35px;
       text-align: center;
       color: #3B4B61;
   }
 
   .header5{
-      font-family: Europa-bold;
+      font-family: arial;
       font-size: 20px;
       text-align: center;
       color: #3B4B61;
   }
 
   .tekstommig{
-      font-family: Europa-light;
+      font-family: arial;
       font-size: 20px;
       text-align: center;
       color: #3B4B61;
@@ -54,7 +55,7 @@
   }
 
   .navbar{
-      font-family: Europa-regular;
+      font-family: arial;
       font-size: 20px;
       width: 100%;
       color: #3B4B61;
@@ -91,7 +92,7 @@
 
     .footer{
         color: #3B4B61;
-        font-family: Europa-regular;
+        font-family: arial;
         font-size: 15px;
         background-color: #c3c8af;
         height: 100%;
