@@ -182,7 +182,6 @@ body{
         margin: 0px;
 
 
-        /* align-items justify-content */
      }
 
 
@@ -192,7 +191,6 @@ body{
 
     }
 
-    /* Style all font awesome icons */
     .fsa {
         text-align: center;
         font-size: 25px;
@@ -223,7 +221,6 @@ body{
       }
 
 
-      /* Add a hover effect if you want */
       .fa:hover {
         opacity: 0.5;
       }

@@ -105,6 +105,8 @@
         align-items: center;
         margin-top: 150px;
         margin: 0;
+
+
      }
 
 
@@ -144,7 +146,6 @@
       }
 
 
-      /* Add a hover effect if you want */
       .fa:hover {
         opacity: 0.5;
       }

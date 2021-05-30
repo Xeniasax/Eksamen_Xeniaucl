@@ -1,3 +1,5 @@
+
+
 *{
       margin: 1;
       padding: 2;
@@ -177,7 +179,7 @@
 
     .footer{
         color: #3B4B61;
-        font-family: arial;
+        font-family: Europa-regular;
         font-size: 15px;
         background-color: #c3c8af;
         height: 60px;
@@ -188,9 +190,6 @@
         align-items: center;
         margin-top: 150px;
         margin: 0px;
-
-
-        /* align-items justify-content */
      }
 
 
@@ -200,7 +199,6 @@
 
     }
 
-    /* Style all font awesome icons */
     .fsa {
         text-align: center;
         font-size: 25px;
@@ -231,7 +229,6 @@
       }
 
 
-      /* Add a hover effect if you want */
       .fa:hover {
         opacity: 0.5;
       }

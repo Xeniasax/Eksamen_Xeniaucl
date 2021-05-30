@@ -123,9 +123,7 @@
         margin: 0;
 
 
-        /* align-items justify-content */
      }
-
 
      .footer div{
          display:inline-flex;
@@ -133,7 +131,6 @@
 
     }
 
-    /* Style all font awesome icons */
     .fsa {
         text-align: center;
         font-size: 25px;
@@ -164,7 +161,6 @@
       }
 
 
-      /* Add a hover effect if you want */
       .fa:hover {
         opacity: 0.5;
       }

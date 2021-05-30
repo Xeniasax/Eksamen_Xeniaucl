@@ -195,7 +195,7 @@ body{
       left: 50%;
       transform: translate(-50%, -50%);
       font-size: 25px;
-      font-family: arial;
+      font-family: Europa-bold;
       }
 
     .projekter:hover .overlayFade{
@@ -212,7 +212,7 @@ body{
 
     .footer{
         color: #3B4B61;
-        font-family: arial;
+        font-family: Europa-regular;
         font-size: 15px;
         background-color: #c3c8af;
         height: 60px;
