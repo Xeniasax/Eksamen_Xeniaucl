@@ -119,19 +119,14 @@
         margin-top: 150px;
         margin-bottom: 150px;
         margin: 0;
-
-
-        /* align-items justify-content */
-     }
-
+        }
 
      .footer div{
          display:inline-flex;
          padding: 0 25px;
+        }
 
-    }
 
-    /* Style all font awesome icons */
     .fsa {
         text-align: center;
         font-size: 25px;
